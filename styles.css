@@ -11,7 +11,7 @@ body {
 }
 
 .memory-game {
-  width: 640px;
+  width: 720px;
   height: 640px;
   margin: auto;
   display: flex;
@@ -21,13 +21,13 @@ body {
 
 .memory-card {
   width: calc(25% - 10px);
-  height: calc(33.333% - 10px);
+  height: calc(30% - 10px);
   margin: 5px;
   position: relative;
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform .5s;
-  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  box-shadow: 1px 1px 1px rgba(#DE6684);
 }
 
 .memory-card:active {
@@ -43,9 +43,9 @@ body {
 .back-face {
   width: 100%;
   height: 100%;
-  padding: 20px;
+  padding: 5px;
   position: absolute;
-  border-radius: 5px;
+  border-radius: 60px;
   background: #DEA0BD;
   backface-visibility: hidden;
 }
